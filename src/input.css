@@ -25,3 +25,35 @@ body {
     background-repeat: no-repeat;
     background-size: 11.25rem auto;
 }
+
+.gradient-cart-1 {
+    @apply w-[22.375rem] h-[21.25rem] rounded-[0.527rem] mb-6;
+    background: linear-gradient(to right bottom, rgb(247, 204, 251), rgb(175, 210, 253) 80%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graident-inner-card-1 {
+    @apply px-[1.687rem] py-[2.6875rem] w-[100%] h-[100%];
+    background-image: url("../img/cute-dog-mid.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 13.25rem auto;
+}
+
+.gradient-cart-2 {
+    @apply w-[22.375rem] h-[21.25rem] rounded-[0.527rem] mb-6;
+    background: linear-gradient(to right bottom, rgb(255, 249, 244), rgb(249, 223, 138) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graident-inner-card-2 {
+    @apply px-[1.687rem] py-[2.6875rem] w-[100%] h-[100%];
+    background-image: url("../img/cute-pet-small.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 13.25rem auto;
+}
