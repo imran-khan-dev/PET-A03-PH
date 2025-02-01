@@ -1708,6 +1708,7 @@ body {
 @media (min-width: 1600px) {
   .subscribe {
     width: 82.5rem;
+    border-radius: 1rem;
   }
 }
 
@@ -1746,6 +1747,39 @@ body {
 @media (min-width: 1600px) {
   .t-shirt {
     background-size: 14rem auto;
+  }
+
+  .gradient-cart-1 {
+    margin-bottom: 0px;
+    height: 30rem;
+  }
+
+  .graident-inner-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5.5rem;
+    background-size: 26rem auto;
+    background-position: bottom -30px right -10px;
+  }
+
+  .gradient-cart-2 {
+    margin-bottom: 0px;
+    height: 30rem;
+  }
+
+  .graident-inner-card-2 {
+    height: 100%;
+    width: 100%;
+    padding-left: 1.687rem;
+    padding-right: 1.687rem;
+    padding-top: 2.6875rem;
+    padding-bottom: 2.6875rem;
+    background-image: url("../img/cute-pet-small.png");
+    background-position: bottom right -30px;
+    background-repeat: no-repeat;
+    background-size: 23rem auto;
   }
 }
 
@@ -1789,6 +1823,10 @@ body {
     margin-bottom: 0px;
   }
 
+  .customScreen\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .customScreen\:mb-6 {
     margin-bottom: 1.5rem;
   }
@@ -1815,26 +1853,6 @@ body {
 
   .customScreen\:mb-\[8\.81rem\] {
     margin-bottom: 8.81rem;
-  }
-
-  .customScreen\:mb-\[\] {
-    margin-bottom: ;
-  }
-
-  .customScreen\:mb-\[2\.9375\] {
-    margin-bottom: 2.9375;
-  }
-
-  .customScreen\:mb-\[2\.9375rem\] {
-    margin-bottom: 2.9375rem;
-  }
-
-  .customScreen\:mb-\[3rem\] {
-    margin-bottom: 3rem;
-  }
-
-  .customScreen\:mb-12 {
-    margin-bottom: 3rem;
   }
 
   .customScreen\:block {
@@ -1873,8 +1891,24 @@ body {
     width: auto;
   }
 
+  .customScreen\:flex-none {
+    flex: none;
+  }
+
   .customScreen\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .customScreen\:grid-cols-\[59\.4\%_auto\] {
+    grid-template-columns: 59.4% auto;
+  }
+
+  .customScreen\:items-start {
+    align-items: flex-start;
+  }
+
+  .customScreen\:justify-normal {
+    justify-content: normal;
   }
 
   .customScreen\:gap-\[1\.437rem\] {
@@ -1950,5 +1984,10 @@ body {
 
   .customScreen\:leading-\[73px\] {
     line-height: 73px;
+  }
+
+  .customScreen\:text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 }

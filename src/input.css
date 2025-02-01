@@ -59,7 +59,7 @@ body {
 }
 
 .subscribe {
-    @apply relative w-[91%] customScreen:w-[82.5rem] mx-auto flex flex-col items-center justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg z-10 -mb-[70%];
+    @apply relative w-[91%] customScreen:w-[82.5rem] mx-auto flex flex-col items-center justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg customScreen:rounded-2xl z-10 -mb-[70%];
 }
 
 .footer {
@@ -95,4 +95,29 @@ body {
     .t-shirt {
         background-size: 14rem auto;
     }
+
+    .gradient-cart-1 {
+        @apply h-[30rem] mb-0;
+
+    }
+
+    .graident-inner-card-1 {
+        @apply flex flex-col items-start justify-center pl-[5.5rem];
+        background-size: 26rem auto;
+        background-position: bottom -30px right -10px;
+    }
+
+    .gradient-cart-2 {
+        @apply h-[30rem] mb-0;
+    }
+
+
+    .graident-inner-card-2 {
+        @apply px-[1.687rem] py-[2.6875rem] w-[100%] h-[100%];
+        background-image: url("../img/cute-pet-small.png");
+        background-position: bottom right -30px;
+        background-repeat: no-repeat;
+        background-size: 23rem auto;
+    }
+
 }
