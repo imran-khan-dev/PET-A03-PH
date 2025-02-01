@@ -43,7 +43,7 @@ body {
 }
 
 .gradient-cart-2 {
-    @apply w-[22.375rem] h-[21.25rem] rounded-[0.527rem] mb-6;
+    @apply w-[22.375rem] h-[21.25rem] rounded-[0.527rem];
     background: linear-gradient(to right bottom, rgb(255, 249, 244), rgb(249, 223, 138) 100%);
     background-position: center;
     background-repeat: no-repeat;
