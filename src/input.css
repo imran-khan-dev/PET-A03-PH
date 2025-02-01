@@ -59,7 +59,7 @@ body {
 }
 
 .subscribe {
-    @apply relative w-[91%] customScreen:w-[82.5rem] mx-auto flex flex-col items-center justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg customScreen:rounded-2xl z-10 -mb-[70%];
+    @apply relative w-[91%] customScreen:w-[82.5rem] customScreen:pl-[5.562rem] mx-auto flex flex-col customScreen:flex-row items-center customScreen:justify-start justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg customScreen:rounded-2xl z-10 -mb-[70%];
 }
 
 .footer {
@@ -84,7 +84,7 @@ body {
     }
 }
 
-@media (min-width: 1120px) and (max-width: 1600px) {
+@media (min-width: 1120px) {
     .subscribe {
         @apply -mb-[20%];
     }
@@ -118,6 +118,10 @@ body {
         background-position: bottom right -30px;
         background-repeat: no-repeat;
         background-size: 23rem auto;
+    }
+
+    .subscribe {
+        @apply -mb-[15%];
     }
 
 }

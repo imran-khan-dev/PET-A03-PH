@@ -1094,6 +1094,11 @@ html {
   z-index: 10;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1708,7 +1713,10 @@ body {
 @media (min-width: 1600px) {
   .subscribe {
     width: 82.5rem;
+    flex-direction: row;
+    justify-content: flex-start;
     border-radius: 1rem;
+    padding-left: 5.562rem;
   }
 }
 
@@ -1738,7 +1746,7 @@ body {
   }
 }
 
-@media (min-width: 1120px) and (max-width: 1600px) {
+@media (min-width: 1120px) {
   .subscribe {
     margin-bottom: -20%;
   }
@@ -1780,6 +1788,10 @@ body {
     background-position: bottom right -30px;
     background-repeat: no-repeat;
     background-size: 23rem auto;
+  }
+
+  .subscribe {
+    margin-bottom: -15%;
   }
 }
 
@@ -1827,6 +1839,10 @@ body {
     margin-bottom: 3rem;
   }
 
+  .customScreen\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
   .customScreen\:mb-6 {
     margin-bottom: 1.5rem;
   }
@@ -1855,6 +1871,10 @@ body {
     margin-bottom: 8.81rem;
   }
 
+  .customScreen\:mr-\[7\.3125rem\] {
+    margin-right: 7.3125rem;
+  }
+
   .customScreen\:block {
     display: block;
   }
@@ -1877,6 +1897,14 @@ body {
 
   .customScreen\:h-\[6\.25rem\] {
     height: 6.25rem;
+  }
+
+  .customScreen\:w-64 {
+    width: 16rem;
+  }
+
+  .customScreen\:w-\[20\.625rem\] {
+    width: 20.625rem;
   }
 
   .customScreen\:w-\[42\.5rem\] {
@@ -1907,8 +1935,16 @@ body {
     align-items: flex-start;
   }
 
+  .customScreen\:items-end {
+    align-items: flex-end;
+  }
+
   .customScreen\:justify-normal {
     justify-content: normal;
+  }
+
+  .customScreen\:justify-between {
+    justify-content: space-between;
   }
 
   .customScreen\:gap-\[1\.437rem\] {
@@ -1933,9 +1969,29 @@ body {
     padding-right: 2.5rem;
   }
 
+  .customScreen\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .customScreen\:px-\[1\.875rem\] {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
   .customScreen\:px-\[3rem\] {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .customScreen\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .customScreen\:py-\[0\.625rem\] {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
   }
 
   .customScreen\:py-\[2\.12rem\] {
@@ -1954,6 +2010,10 @@ body {
   .customScreen\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .customScreen\:text-\[2\.25rem\] {
+    font-size: 2.25rem;
   }
 
   .customScreen\:text-\[2rem\] {

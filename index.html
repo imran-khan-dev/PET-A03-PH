@@ -360,33 +360,46 @@
 
     <!-- Subscribe -->
     <div class="subscribe">
-        <img class="w-[11.875rem] h-auto]" src="img/cute-pet-mid.png" alt="cute-dog">
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="font-adlam text-[1.375rem] mb-[0.75rem]">Get Pawsome News!</h2>
-            <p class="text-base text-center mb-5">Exclusive training tips, tricks, product deals and more.</p>
+        <img class="w-[11.875rem] customScreen:w-[20.625rem] h-auto customScreen:mr-[7.3125rem]"
+            src="img/cute-pet-mid.png" alt="cute-dog">
+        <div class="flex flex-col items-center customScreen:items-start justify-center">
+            <div class="flex flex-col customScreen:items-start items-center justify-center">
+                <h2 class="font-adlam text-[1.375rem] customScreen:text-[2.25rem] customScreen:mb-5 mb-[0.75rem]">Get
+                    Pawsome News!</h2>
+                <p class="text-base text-center customScreen:text-xl mb-5">Exclusive training tips, tricks, product
+                    deals and more.</p>
+            </div>
+            <input
+                class="w-full rounded-md text-sm customScreen:text-base leading-8 text-[#C4C4C4] py-[0.375rem] px-[0.5rem] customScreen:py-4 customScreen:px-4 mb-[0.75rem] focus:border-[#FFDC26] focus:ring-1 focus:ring-[#FFDC26] outline-none"
+                type="email" placeholder="Enter email....">
+            <button
+                class="text-sm customScreen:text-xl px-6 py-2 customScreen:px-[1.875rem] customScreen:py-[0.625rem] bg-[#FFDC26] rounded-md leading-5">Subscribe</button>
         </div>
-        <input
-            class="w-full rounded-md text-sm leading-8 text-[#C4C4C4] py-[0.375rem] px-[0.5rem] mb-[0.75rem] focus:border-[#FFDC26] focus:ring-1 focus:ring-[#FFDC26] outline-none"
-            type="email" placeholder="Enter email....">
-        <button class="text-sm px-6 py-2 bg-[#FFDC26] rounded-md leading-5">Subscribe</button>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
         <!-- Footer Container -->
-        <div class="w-[91%] customScreen:w-[82.5rem] mx-auto">
-            <div class="flex items-center justify-left mb-4">
-                <img class="mr-[0.553rem]" src="img/logo-footer.png" alt="logo-footer">
-                <p class="text-[1.2375rem]">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+        <div
+            class="w-[91%] customScreen:w-[82.5rem] mx-auto customScreen:flex customScreen:items-end customScreen:justify-between">
+            <!-- Footer Texts -->
+            <div class="customScreen:w-64 mx-4 mb-9 customScreen:mb-0">
+                <div class="flex items-center justify-left mb-4">
+                    <img class="mr-[0.553rem]" src="img/logo-footer.png" alt="logo-footer">
+                    <p class="text-[1.2375rem]">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+                </div>
+                <p class="text-base text-[#111111] text-opacity-50">Discover a world of treats, toys, and
+                    essentials
+                    handpicked for your furry friends</p>
             </div>
-            <p class="text-base text-[#111111] text-opacity-50 mb-9">Discover a world of treats, toys, and essentials
-                handpicked for your furry friends</p>
-            <ul class="space-y-5 mb-11">
+            <!-- Menu -->
+            <ul class="space-y-5 mb-11 customScreen:mb-0 customScreen:w-64 mx-4">
                 <li><a href="#" class="hover:text-gray-400 text-base">Find a pet</a></li>
                 <li><a href="#" class="hover:text-gray-400 text-base">Breeds</a></li>
                 <li><a href="#" class="hover:text-gray-400 text-base">Contact us</a></li>
             </ul>
-            <div>
+            <!-- Socials -->
+            <div class="customScreen:w-64 mx-4">
                 <p class="text-sm mb-4">Follow Us</p>
                 <div class="flex items-center justify-left space-x-[1.875rem]">
                     <img src="img/fb.png" alt="fb">
