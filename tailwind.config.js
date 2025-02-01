@@ -10,6 +10,19 @@ module.exports = {
       screens: {
         customScreen: "1600px",
       },
+      keyframes: {
+        pulse: {
+          "0%, 100%": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(1.05)",
+          },
+        },
+      },
+      animation: {
+        pulse: "pulse 2s ease-in-out infinite",
+      },
     },
   },
   plugins: [require("daisyui")],
