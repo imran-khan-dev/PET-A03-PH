@@ -19,7 +19,7 @@ body {
 }
 
 .t-shirt {
-    @apply w-full h-[21.25rem] rounded-[0.527rem] px-[1.687rem] py-[2.6875rem] bg-[#F9DF8A] mb-6;
+    @apply w-full h-[21.25rem] customScreen:h-full rounded-[0.527rem] px-[1.687rem] py-[2.6875rem] bg-[#F9DF8A] mb-6 customScreen:mb-0;
     background-image: url("../img/cute-pet-small.png");
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 }
 
 .subscribe {
-    @apply relative w-[91%] mx-auto flex flex-col items-center justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg z-10 -mb-[70%];
+    @apply relative w-[91%] customScreen:w-[82.5rem] mx-auto flex flex-col items-center justify-center px-6 py-8 bg-[#FFF9F4] rounded-lg z-10 -mb-[70%];
 }
 
 .footer {
@@ -87,5 +87,12 @@ body {
 @media (min-width: 1120px) and (max-width: 1600px) {
     .subscribe {
         @apply -mb-[20%];
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .t-shirt {
+        background-size: 14rem auto;
     }
 }

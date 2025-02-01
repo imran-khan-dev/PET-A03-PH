@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        adlam: ['"ADLaM Display"', 'sans-serif'],
-        sora: ['Sora', 'sans-serif'],
+        adlam: ['"ADLaM Display"', "sans-serif"],
+        sora: ["Sora", "sans-serif"],
+      },
+      screens: {
+        customScreen: "1600px",
       },
     },
   },
